@@ -20,7 +20,7 @@ public class Order {
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Integer orderId;
 	private Integer paymentId ;
-	private List<Product> products;
+	
 	
 	@OneToOne(cascade = CascadeType.ALL)
 	private Address shippingAddress;

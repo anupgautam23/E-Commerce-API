@@ -37,7 +37,6 @@ public class OrderServiceImpl implements OrderService{
 	public String addOrder(Integer paymentId) throws PaymentNotFoundException, UserException {
 		
 		String message = "";
-		try {		
 		
 		Optional<Payment> paymentOpt =  paymentRepo.findById(paymentId);
 		 if(paymentOpt.isEmpty()) throw new PaymentNotFoundException("No Payment found");
@@ -48,22 +47,18 @@ public class OrderServiceImpl implements OrderService{
 		 
 		 Address address = cart.getUser().getAddresses().get(0);
 		 if(address==null) throw new UserException("Please add the address first");
-		 List<Product> product =  cart.getProducts();
+		 
 		
 		Order newOrder = new Order();
-		newOrder.setProducts(product);
+		
 		newOrder.setPaymentId(paymentId);
-		newOrder.setShippingAddress(null);
 		newOrder.setShippingAddress(address);
 		newOrder.setMessage("Order success");
 		newOrder.setTotalOrderPrice(cart.getTotalPrice());
 		
 		orderRepository.save(newOrder);
 		message = "order Success";		
-		} catch (UserException ue) {
-			throw new UserException("Order cancelled please try again !!!"); 
-			
-		}
+		
 		return message;
 	}
 
