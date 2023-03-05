@@ -13,6 +13,8 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.context.request.WebRequest;
 import org.springframework.web.servlet.NoHandlerFoundException;
 
+import com.masai.Model.Product;
+
 
 
 
@@ -22,7 +24,17 @@ import org.springframework.web.servlet.NoHandlerFoundException;
 public class GlobalExceptionHandler {
 	
 	
+	@ExceptionHandler(ProductNotFoundException.class)
+	public ResponseEntity<MyErrorDetails> UserExceptionHandler(ProductNotFoundException ex, WebRequest req) {
+		MyErrorDetails err = new MyErrorDetails(LocalDateTime.now(), ex.getMessage(), req.getDescription(false));
+		return new ResponseEntity<MyErrorDetails>(err, HttpStatus.BAD_REQUEST);
+	}
 	
+	@ExceptionHandler(CategoryNotFoundException.class)
+	public ResponseEntity<MyErrorDetails> UserExceptionHandler(CategoryNotFoundException ex, WebRequest req) {
+		MyErrorDetails err = new MyErrorDetails(LocalDateTime.now(), ex.getMessage(), req.getDescription(false));
+		return new ResponseEntity<MyErrorDetails>(err, HttpStatus.BAD_REQUEST);
+	}
 
 	@ExceptionHandler(UserException.class)
 	public ResponseEntity<MyErrorDetails> UserExceptionHandler(UserException ex, WebRequest req) {

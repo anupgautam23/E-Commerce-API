@@ -11,6 +11,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
+import javax.persistence.OneToOne;
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Pattern;
@@ -59,9 +60,11 @@ public class User {
 			+ "English letter, one number and one special character.")
 	private String password;
 	
-//	@JsonIgnore
+	@JsonIgnore
 	@OneToMany( mappedBy = "user")
 	private List<Address> addresses;
 	
-
+	@JsonIgnore
+	@OneToOne(cascade = CascadeType.ALL,mappedBy = "user")
+	private Cart cart;
 }

@@ -8,6 +8,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
+import javax.persistence.OneToOne;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 
@@ -49,6 +50,8 @@ public class Address {
 	@ManyToOne
 	private User user;
 
-	
+	@JsonIgnore
+	@OneToOne(cascade = CascadeType.ALL,mappedBy = "shippingAddress")
+	private Order order ; 
 	
 }
