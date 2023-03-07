@@ -212,11 +212,7 @@ Don't forget to give the project a star! Thanks again!
 
 <!-- Contributors -->
 ## contributors
-* Harshit Bansal
-* Nilesh Solaki
-* Pawan Yadav
-* Anup Gautam
-* Shivani Gupta
+* It is an Individial Project
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
