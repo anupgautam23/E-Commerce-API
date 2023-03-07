@@ -106,7 +106,7 @@ First clone the project and let STS4 build its dependecies. Maven --> Update Pro
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/nileshs23/dear-shade-414
+   git clone https://github.com/anupgautam23/E-Commerce-API
    ```
 2. Add MVN Dependencies
 
@@ -119,11 +119,13 @@ First clone the project and let STS4 build its dependecies. Maven --> Update Pro
 
 Use this to get insights of signup and login functionality.
 
-SignUp Controller :-
+User SignUp Controller :-
 
-Login Controller :-
+User Login Controller :-
 
-ID Controller :-
+Admin SignUp Controller :-
+
+Admin Login Controller :-
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -132,43 +134,45 @@ ID Controller :-
 ## Modules
 This Application Consist 7 Modules
 
-- Vaccine Registration Module
-- Booking Appointment Module.
-- Vaccination Center Module.
-- Vaccine Module.
-- Vaccine Inventory Module.
-- Search Module.
+- User Registration Module
+- Admin Registration Module  
+- Category Module.
+- Product Module.
+- Cart Module.
+- Payment Module.
+- Order Module.
 
-## Vaccine Retistration Module
-- This Module Will Take User Mobile Number For Registration.
-- User Can Add The Member In the Member List.
-- User Can See the Status Of Each Member.
+## User Retistration Module
+- This Module Will Take User First Name, last Name, Email, and Password  For Registration.
+- User can add the address after registration by providing User Id.
+- User can add the product into Cart followed by can purchase the product.
 
-## Booking AppointMent Module
-- In this module User can Serach Member and see the availability of Vaccination Center.
-- User can select center, book slots. 
-- User can book appointment for particular data.
+## Admin Registration Module
+- This Module Will Take Admin First Name, last Name, Email, and Password  For Registration
+- Admin can add the product in inventory and manage the category.
+- Admin  can manage the product inventory category wise. 
 
-## Vaccination Center Module
+## Category Module
 This Module Is for Admin.
 
-- Admin can add Center for Vaccination along with its address,city,pincode.
-- This Module is Capable Of Providing Center Details as per State, City Or Pincode.
+- Admin can add the different category.
+- This Module is Capable Of holding the different products on each category. 
 
-## Vaccine Module
-For Covid-19 new Vaccine are coming in the Market.
-- All Vaccines Enteries Should Be Added And Managed By Admin.
+## Product Module
+This Module Is for Admin.
+- Admin can add the products category wise.
 
-## Vaccine Inventory Module
+## Cart  Module
+This module is for User
+- User can add the product into cart after searching the  product.
 
-- This Module is Primarly Responsible for Enteries of Vaccines Centerwise On a given Date.
+## Payment Module
+This module is for User
+- User can make the payment of their cart items.
 
-## Search Module
-
-- Module Should Be Capable Of Seraching IdCards Of Users.
-- Vaccine Registration.
-- Member History.
-- Vaccination Center.
+## Order Module
+This module is for User
+- User can make the order successful after made the payment.
 
 <!-- ROADMAP -->
 ## Roadmap
