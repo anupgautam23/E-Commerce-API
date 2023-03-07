@@ -212,7 +212,7 @@ Don't forget to give the project a star! Thanks again!
 
 <!-- Contributors -->
 ## contributors
-* It is an Individial Project
+* It is an Individual Project
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -221,7 +221,7 @@ Don't forget to give the project a star! Thanks again!
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-We are always looking for ways to improve our Application, and I would like to request your feedback on our latest project. Your opinions matter to us and your feedback is used to improve how we work and ensure we deliver a consistently high-quality service.
+I am always looking for ways to improve my Application, and I would like to request your feedback on my latest project. Your opinions matter to me and your feedback is used to improve how I work and ensure I deliver a consistently high-quality service.
 
 Thank You ,
 * Masai School
