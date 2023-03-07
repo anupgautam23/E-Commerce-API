@@ -61,8 +61,8 @@
 ![er d3](https://i.ibb.co/Gp5Vr7r/myFlow.jpg)
 
 
-This application will facilitate the citizen with an option to register and schedule the vaccination session online in Centers of their choice. The Citizen self-registration module will ensure fool-proof identification of deserving candidates for receiving the vaccines.
-The objective is to handhold the citizens to register and schedule an appointment for vaccination..
+This application will facilitate the User with an option to register and buy the product online in different payment mode of their choice and the Admin with an option to signup and manage the product in inventory. 
+The objective is to User can buy the product  and Admin can manage the product on E-Commerce platform.
 
 Try `Link in Description` visiting our site.
 
