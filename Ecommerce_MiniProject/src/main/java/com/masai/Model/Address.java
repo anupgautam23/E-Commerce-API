@@ -52,6 +52,6 @@ public class Address {
 
 	@JsonIgnore
 	@OneToOne(cascade = CascadeType.ALL,mappedBy = "shippingAddress")
-	private Order order ; 
+	private OrderDetail order ; 
 	
 }

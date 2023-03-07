@@ -67,4 +67,10 @@ public class User {
 	@JsonIgnore
 	@OneToOne(cascade = CascadeType.ALL,mappedBy = "user")
 	private Cart cart;
+	
+	@JsonIgnore
+	@OneToMany( mappedBy = "orderuser")
+	private List<OrderDetail> orderDetails;
+	
 }
+	
