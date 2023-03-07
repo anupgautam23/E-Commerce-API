@@ -14,13 +14,13 @@
   <h3 align="center">E-Commerce REST Api</h3>
 
   <p align="center">
-    We tried to mimic real world Covid-19 module. And designe according to that.
+    I tried to mimic real world E-Commerce module. And designe according to that.
     <br />
-    <a href="https://github.com/bansalharshit/boorish-floor-4212"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/anupgautam23/E-Commerce-API"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     .
-    <a href="https://github.com/bansalharshit/boorish-floor-4212">View Demo</a>
+    <a href="https://github.com/anupgautam23/E-Commerce-API">View Demo</a>
     .
   </p>
 </div>
@@ -58,7 +58,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![er d3](https://user-images.githubusercontent.com/53571060/201828957-c6c4c986-dadc-47fa-ae56-f2324750449e.png)
+![er d3](https://i.ibb.co/Gp5Vr7r/myFlow.jpg)
 
 
 This application will facilitate the citizen with an option to register and schedule the vaccination session online in Centers of their choice. The Citizen self-registration module will ensure fool-proof identification of deserving candidates for receiving the vaccines.
