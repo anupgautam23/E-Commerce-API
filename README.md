@@ -14,7 +14,7 @@
   <h3 align="center">E-Commerce REST Api</h3>
 
   <p align="center">
-    I tried to mimic real world E-Commerce module. And designe according to that.
+    I tried to mimic the real-world E-Commerce module. And design according to that.
     <br />
     <a href="https://github.com/anupgautam23/E-Commerce-API"><strong>Explore the docs »</strong></a>
     <br />
@@ -102,7 +102,7 @@ This is an example of how to list things you need to use the software and how to
 
 ### Installation
 
-First clone the project and let STS4 build its dependecies. Maven --> Update Project -->Run as SpringBoot
+First, clone the project and let STS4 build its dependencies. Maven --> Update Project -->Run as SpringBoot
 
 1. Clone the repo
    ```sh
@@ -117,22 +117,22 @@ First clone the project and let STS4 build its dependecies. Maven --> Update Pro
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this to get insights of signup and login functionality.
+Use this to get insights into signup and login functionality.
 
-User SignUp Controller :-
+User SignUp Controller:-
 
-User Login Controller :-
+User Login Controller:-
 
-Admin SignUp Controller :-
+Admin SignUp Controller:-
 
-Admin Login Controller :-
+Admin Login Controller:-
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- USAGE EXAMPLES -->
 ## Modules
-This Application Consist 7 Modules
+This Application Consists 7 Modules
 
 - User Registration Module
 - Admin Registration Module  
@@ -142,37 +142,37 @@ This Application Consist 7 Modules
 - Payment Module.
 - Order Module.
 
-## User Retistration Module
-- This Module Will Take User First Name, last Name, Email, and Password  For Registration.
-- User can add the address after registration by providing User Id.
-- User can add the product into Cart followed by can purchase the product.
+## User Registration Module
+- This Module Will Take User's First Name, Last Name, Email, and Password  For Registration.
+- User can add the address after registration by providing a User ID.
+- User can add the product to the Cart followed by purchasing the product.
 
 ## Admin Registration Module
-- This Module Will Take Admin First Name, last Name, Email, and Password  For Registration
-- Admin can add the product in inventory and manage the category.
-- Admin  can manage the product inventory category wise. 
+- This Module Will Take Admin's First Name, Last Name, Email, and Password  For Registration
+- Admin can add the product to the inventory and manage the category.
+- Admin  can manage the product inventory category-wise. 
 
 ## Category Module
 This Module Is for Admin.
 
-- Admin can add the different category.
-- This Module is Capable Of holding the different products on each category. 
+- Admin can add the different categories.
+- This Module is Capable Of holding the different products in each category. 
 
 ## Product Module
 This Module Is for Admin.
-- Admin can add the products category wise.
+- Admin can add the products category-wise.
 
 ## Cart  Module
-This module is for User
-- User can add the product into cart after searching the  product.
+This module is for the User
+- Users can add the product to the cart after searching for the  product.
 
 ## Payment Module
-This module is for User
+This module is for the User
 - User can make the payment of their cart items.
 
 ## Order Module
-This module is for User
-- User can make the order successful after made the payment.
+This module is for the User
+- The user can make the order successful after making the payment.
 
 <!-- ROADMAP -->
 ## Roadmap
@@ -195,7 +195,7 @@ This module is for User
 <!-- CONTRIBUTING -->
 ## Contributing
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+Contributions are what makes the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
 If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
 Don't forget to give the project a star! Thanks again!
